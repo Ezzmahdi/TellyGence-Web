@@ -27982,6 +27982,22 @@ var wcSettings = wcSettings || JSON.parse( decodeURIComponent( '%7B%22shippingCo
         });
     </script>
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-    <script src="https://mediafiles.botpress.cloud/fe7356f2-f8e4-48d9-b3ce-f2cfef0179e8/webchat/config.js" defer></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with bot",
+          "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+          "botId": "fe7356f2-f8e4-48d9-b3ce-f2cfef0179e8",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "fe7356f2-f8e4-48d9-b3ce-f2cfef0179e8",
+          "webhookId": "ae77f4bb-3846-4b7d-9010-aedfbdc76740",
+          "lazySocket": true,
+          "themeName": "prism",
+          "frontendVersion": "v1",
+          "showPoweredBy": true,
+          "theme": "prism",
+          "themeColor": "#2563eb"
+      });
+    </script>
 </body>
 </html>
